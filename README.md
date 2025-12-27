@@ -59,7 +59,7 @@ It also gave me a chance to work with both frontend and backend, databases, emai
 If you want to test this project on your machine:
 
 ### 1. Clone it
-git clone https://github.com/AhmedG166/dental-clinic-fullstack.git
+git clone https://github.com/AhmedG166/dental-clinic.git
 cd dental-clinic
 
 

@@ -1,0 +1,26 @@
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Chatbot from '@/components/Chatbot';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'SmileCare Dental Clinic',
+  description: 'Professional dental care for your perfect smile',
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        {children}
+        <Chatbot />
+      </body>
+    </html>
+  );
+}
